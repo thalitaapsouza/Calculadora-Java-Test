@@ -97,38 +97,32 @@ public class CalculadoraJunit {
 
     }
 
-@SuppressWarnings("deprecation")
+    @SuppressWarnings("deprecation")
     @Test
-public void TesteDivisao() {
+    public void TesteDivisao() {
         double div = 0;
-        
-                
+
 //Cenario de teste do junit  1: divisao de dois valores
-  CalculadoraOperacoes calc = new CalculadoraOperacoes();
+        CalculadoraOperacoes calc = new CalculadoraOperacoes();
         div = calc.divisao(6, 3);
         System.out.println(div);
         Assert.assertEquals(2, div);
 
-       //Cenario de teste do junit  2: divisao de dois valores sendo um zero 
-        div = calc.divisao ( 0, 9);
+        //Cenario de teste do junit  2: divisao de dois valores sendo um zero 
+        div = calc.divisao(0, 9);
         System.out.println(div);
         Assert.assertEquals(0, div);
 
-        
-       //Cenario de teste do junit  3: divisao de dois valores sendo que ambos sao zero
+        //Cenario de teste do junit  3: divisao de dois valores sendo que ambos sao zero
         div = calc.divisao(0, 0);
         System.out.println(div);
-                Assert.assertEquals(0, div);
+        Assert.assertEquals(0, div);
 
-        
         //Cenario de teste do junit  4: divisao de dois valores sendo um negativo
-
         div = calc.divisao(6, -2);
         System.out.println(div);
-        Assert.assertEquals(2 , div);
+        Assert.assertEquals(2, div);
 
-    }  
-        
     }
 
-
+}

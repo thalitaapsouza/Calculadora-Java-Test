@@ -9,4 +9,8 @@ Ajuda na simplificaçao do código, pois com o JUnit, os testes são automatizad
 ---
 
 > Última atualização no dia 09/09/2022
+<<<<<<< HEAD
 >Autor: Thalita Aparecida de Souza
+=======
+>Autor: Thalita Aparecida de Souza
+>>>>>>> f72b31ca1a5455dd8b5e2524686376d15d422a88
