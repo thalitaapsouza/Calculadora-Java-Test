@@ -14,13 +14,14 @@ public class CalculadoraTestes {
         int soma = 0;
 
         CalculadoraOperacoes calc = new CalculadoraOperacoes();
+       //Cenario de teste 1: Soma de dois valores 
         soma = calc.somar(2, 8);
         System.out.println(soma);
 
-        //Cenario de teste 1: Soma de dois valores 
+        //Cenario de testes 2: Soma de dois valores sendo um zero 
         soma = calc.somar(4, 0);
         System.out.println(soma);
-//Cenario de testes 2: Soma de dois valores sendo um zero 
+ 
 
         soma = calc.somar(0, 0);
         System.out.println(soma);
